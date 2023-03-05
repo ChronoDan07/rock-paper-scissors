@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    color: darkgreen;
+}
+
+button {
+    background-color: darkgreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    margin-bottom: 16px;
+}
+
+#comp-choice,#result {
+    font-size: large;
+}
+
+.box {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 10px solid darkgreen;
+}
+
+#shape {
+    margin-bottom:24px;
+
+}
+
+#plscore,#cpscore {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#rnd {
+    font-size: 20px;
+    
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.playerscore,.computerscore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    color: darkgreen;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
