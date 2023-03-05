@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="box">
+        <div class="container">
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+        <div class="round">
+            <h3>Round: </h3>
+            <p id="rnd">0</p>
+        </div>
+        <div class="score">
+            <div class="playerscore">
+              <h3>Player Score:</h3>
+              <p id="plscore">0</p> 
+            </div>
+            <div class="computerscore">
+                <h3>Computer Score:</h3>
+              <p id="cpscore">0</p>
+            </div>
+        </div>
+        <input id="shape" value="Rock">
+        <button onclick="playRound()">Start</button>
+        <button onclick="resetGame()">Reset</button>
+        <p id="comp-choice">----</p>
+        <p id="result">----</p>
+        </div>
+        <div class="results">
+            <h1 id="final">______________</h1>
+        </div>
+    </div>
+        <script src="rps.js"></script>
+    </body>
+</html>
