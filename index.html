@@ -23,16 +23,38 @@
               <p id="cpscore">0</p>
             </div>
         </div>
-        <input id="shape" value="Rock">
-        <button onclick="playRound()">Start</button>
+        <div class = "img-cont">
+            <div class = "Rock">
+                <img src="images/rock.png">
+            </div>
+            <div class = "Paper">
+                <img src="images/paper.png">
+            </div>
+            <div class = "Scissors">
+                <img src="images/scissors.png">
+            </div>
+
+        </div>
+
+        <!-- <input id="shape" value="Rock">
+        <button onclick="playGame()">Start</button> -->
         <button onclick="resetGame()">Reset</button>
         <p id="comp-choice">----</p>
         <p id="result">----</p>
-        </div>
+        
         <div class="results">
             <h1 id="final">______________</h1>
         </div>
+        </div>
     </div>
+    <audio data-audio="rwin" src = 'audio/rock-win.mp3'></audio>
+    <audio data-audio="swin" src = 'audio/scissors-win.mp3'></audio>
+    <audio data-audio="pwin" src = 'audio/paper-win.mp3'></audio>
+    <audio data-audio="lose" src = 'audio/lose-round.mp3'></audio>
+    <audio data-audio="draw" src = 'audio/draw.mp3'></audio>
+    <audio data-audio="biglose" src = 'audio/lose-game.mp3'></audio>
+    <audio data-audio="bigwin" src = 'audio/win-game.mp3'></audio>
+
         <script src="rps.js"></script>
     </body>
 </html>
